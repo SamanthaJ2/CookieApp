@@ -64,7 +64,7 @@ public class Program
         Header client = new Header();
         var requestUri = client.requestUri;
 
-        var cookiePOST = new Cookie { Name = "rondldo", Flavor = "manscherunited", Quantity = 1 };
+        var cookiePOST = new Cookie { Name = "Chocolate Chip", Flavor = "Chocolate", Quantity = 1 };
  
         var resultPOST = await client.PostAsync<Cookie>(requestUri, cookiePOST, new JsonMediaTypeFormatter());
 
